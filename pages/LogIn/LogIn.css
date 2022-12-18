@@ -1,0 +1,122 @@
+.login {
+  margin: 6rem auto;
+  width: 80%;
+  background-color: #fff;
+  height: 50rem;
+  border-radius: 9px;
+  box-shadow: 0 0.7rem 0.8rem rgba(0, 0, 0, 0.2);
+  display: flex;
+  overflow: hidden;
+}
+@media screen and (max-width: 480px) {
+  .login {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+.login1 {
+  padding: 3rem;
+  flex: 2;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+@media screen and (max-width: 480px) {
+  .login1 {
+    order: 2;
+  }
+}
+.login1__text {
+  font-size: 3rem;
+  opacity: 80%;
+}
+.login1__box {
+  display: block;
+  color: #333;
+  font-weight: 600;
+  width: 30rem;
+  border: none;
+  padding: 0.7rem 1.3rem;
+  border-radius: 15px;
+  outline: none;
+  background-color: #f0f0f0;
+  font-size: 1.7rem;
+  opacity: 85%;
+}
+.login1__box:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+.login1__box::-moz-placeholder {
+  color: #aaa;
+  font-weight: 500;
+}
+.login1__box:-ms-input-placeholder {
+  color: #aaa;
+  font-weight: 500;
+}
+.login1__box::placeholder {
+  color: #aaa;
+  font-weight: 500;
+}
+.login1__submit {
+  background-color: #2D31FA;
+  border: none;
+  color: #fff;
+  padding: 1.2rem 1rem;
+  width: 15rem;
+  font-size: 1.7rem;
+  border-radius: 49px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.login1__submit:hover {
+  background-color: #1d20c2;
+}
+.login1__error {
+  font-size: 1.5rem;
+  opacity: 75%;
+  margin-top: 3rem;
+  font-weight: 600;
+  color: red;
+}
+.login1__para {
+  font-size: 1.3rem;
+}
+@media screen and (max-width: 480px) {
+  .login1__para {
+    font-size: 1.5rem;
+  }
+}
+
+.login2 {
+  flex: 2.5;
+  padding: 2rem 2.5rem;
+  background-size: cover;
+  text-align: center;
+  background-color: rgba(34, 37, 192, 0.7411764706);
+  border-radius: 5% 0 0 50%;
+}
+.login2__text {
+  margin: 0;
+  font-size: 2rem;
+  opacity: 90%;
+  color: #fff;
+}
+.login2__text2 {
+  margin: 0;
+  font-size: 2.7rem;
+  opacity: 90%;
+  color: #fff;
+}
+.login2__para {
+  font-size: 1.3rem;
+  color: #fff;
+  opacity: 90%;
+}
+.login2__vector {
+  width: 75%;
+}/*# sourceMappingURL=LogIn.css.map */

@@ -1,0 +1,15 @@
+.singlecomment {
+  background-color: #fff;
+  padding: 0.09rem 1.5rem;
+  box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 100%;
+  text-transform: capitalize;
+}
+.singlecomment:not(:last-child) {
+  margin-bottom: 1.3rem;
+}
+.singlecomment__one {
+  font-weight: 600;
+  font-size: 1.5rem;
+}/*# sourceMappingURL=SingleComment.css.map */
